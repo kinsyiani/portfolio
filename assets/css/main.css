@@ -60,6 +60,15 @@ mark {
 	color: inherit;
 }
 
+.zoom {
+	
+	transition: transform .2s;
+	margin: 0 auto;
+  }
+  .zoom:hover {
+	transform: scale(1.1); 
+  }
+
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
